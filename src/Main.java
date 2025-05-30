@@ -3,6 +3,17 @@
 public class Main {
     public static void main(String[] args) {
 
+        double salary = 55000.75;
+
+        int bonus = 5000;
+
+        double totalSalary1 = salary + bonus;
+        int totalSalary2 = (int) salary + bonus;
+
+        System.out.println("My salary = " + Math.round(totalSalary1));
+        System.out.print("My salary = " + totalSalary2);
+
+/**
         /// 각종 기본타임 변수 선언
 
         byte b = 10;
@@ -49,5 +60,7 @@ public class Main {
         String name = "KSJ";
 
         System.out.print("\n" + name);
+ **/
+
     }
 }
